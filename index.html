@@ -8,11 +8,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <header class="mx-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="azule">
+        <nav class="navbar navbar-expand-lg px-5 navbar-dark py-3">
             <a class="navbar-brand" href="#">Miguel Prata Silva</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,18 +21,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link" href="#">Disabled</a>
+                    <a class="nav-item nav-link" href="#">Início</a>
+                    <a class="nav-item nav-link" href="#">Sobre</a>
+                    <a class="nav-item nav-link" href="#">Projetos</a>
+                    <a class="nav-item nav-link" href="#">Contato</a>
                 </div>
             </div>
         </nav>
     </header>
-
     <main>
-        <section class="row p-5 m-0">
-            <div class="col-12 col-md-6 text-justify">
+        <section class="row p-5 m-0 azule d-flex align-items-center">
+            <div class="header col-12 col-md-6 text-justify text-light">
                 <h1>Desenvolvedor Full<br>Stack</h1>
                 <p>19 Anos</p>
                 <div class="">
@@ -40,10 +40,118 @@
                 </div>
             </div>
             <figure class="col-12 col-md-6 text-center">
-                <img src="assets/Fotinha.jpg" class="img-fluid rounded-circle" style="width: 400px; height: 400px; object-fit: cover;">
+                <img src="assets/Fotinha.jpg" class="img-fluid rounded-circle">
             </figure>
         </section>
+
+        <section class="azulc py-5">
+            <div class="px-5">
+                <h2 class="text-center mb-5 text-light">Sobre Mim</h2>
+                <div class="row g-5">
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 bg-dark text-light border-primary">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary mb-4">Frontend</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>HTML</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>CSS</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Javascript
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>React</li>
+                                    <li class="mb-2"><i
+                                            class="bi bi-check-circle-fill text-primary me-2"></i>React-Native</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 bg-dark text-light border-primary">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary mb-4">Backend</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>PHP</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>SQL</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>NodeJs
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Python
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Java</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 bg-dark text-light border-primary">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary mb-4">Outros</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Git</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>GitHub
+                                    </li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="azule py-5">
+            <div class="px-5">
+                <h2 class="text-center mb-5 text-light">Projetos em Destaque</h2>
+                <div class="row g-5">
+                    <div class="col-12 col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="assets/projeto1.jpg" class="card-img-top img-card" alt="Projeto 1">
+                            <div class="card-body">
+                                <h3 class="card-title">Nome do Projeto 1</h3>
+                                <p>Uma breve descrição do projeto e as tecnologias utilizadas no
+                                    desenvolvimento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="assets/projeto1.jpg" class="card-img-top img-card" alt="Projeto 1">
+                            <div class="card-body">
+                                <h3 class="card-title">Nome do Projeto 1</h3>
+                                <p>Uma breve descrição do projeto e as tecnologias utilizadas no
+                                    desenvolvimento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img src="assets/projeto1.jpg" class="card-img-top img-card" alt="Projeto 1">
+                            <div class="card-body">
+                                <h3 class="card-title">Nome do Projeto 1</h3>
+                                <p>Uma breve descrição do projeto e as tecnologias utilizadas no
+                                    desenvolvimento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="azulc py-5">
+            <div class="px-5">
+                <h2 class="text-center mb-5 text-light">Vamos conversar?</h2>
+                <div class="row g-5 text-center">
+                    <div class="col-12 d-flex justify-content-center gap-4">
+                        <a href="mailto:migpratass26@gmail.com" class="button1">
+                            <i class="bi bi-envelope-fill me-2"></i>Email
+                        </a>
+                        <a href="https://www.linkedin.com/in/miguel-prata-silva-42562b27b/" target="_blank" class="button2">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="azule text-light text-center py-2 d-flex justify-content-center">
+        <p class="m-0">&copy; 2025 Miguel Prata Silva</p>
+    </footer>
 </body>
 
 </html>
