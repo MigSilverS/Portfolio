@@ -111,3 +111,35 @@ main {
     object-fit: cover;
     width: 100%;
 }
+
+/* Swiper Custom Styles */
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    height: auto; /* Allow card to determine height */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.swiper-pagination-bullet {
+    background: #3765e4;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #3765e4;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none; /* Hide navigation on small screens for better UX */
+    }
+}
